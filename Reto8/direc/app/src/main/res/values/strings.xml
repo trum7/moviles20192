@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Moviles 2019II</string>
+    <string name="login">Ingresa</string>
+    <string name="signUp">Agregar</string>
+    <string name="consultancy">Consultoría</string>
+    <string name="softwareDevelopment">Fabrica de desarrollo</string>
+    <string name="customDevelopment">Software a la medida</string>
+    <string name="viewCompanies">Consultar el directorio</string>
+    <string name="companySettings">Actualizar datos de tu compañia</string>
+    <string name="delete">Eliminar tu empresa del directorio</string>
+    <string name="update">Actualizar informacion</string>
+
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="confirmPassword">Confirmar contraseña</string>
+    <string name="name">Nombre</string>
+    <string name="url">Pagina web</string>
+    <string name="phone">Telefono </string>
+    <string name="email">Email</string>
+    <string name="service">Servicios y Productos</string>
+    <string name="category">Categoria</string>
+
+</resources>
