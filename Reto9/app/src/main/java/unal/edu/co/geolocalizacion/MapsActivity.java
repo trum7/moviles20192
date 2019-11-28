@@ -134,8 +134,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     public boolean onOptionsItemSelected( MenuItem item ){
         AlertDialog alertDialog = new AlertDialog.Builder( this ).create( );
-        alertDialog.setTitle( "Radius Diameter" );
-        alertDialog.setMessage( "Enter the search distance (Kilometers)!" );
+        alertDialog.setTitle( "Diametro del radio" );
+        alertDialog.setMessage( "Ingrese radio en kilometros!" );
         final EditText editText = new EditText( this );
         editText.setInputType( InputType.TYPE_CLASS_NUMBER );
         alertDialog.setView( editText );

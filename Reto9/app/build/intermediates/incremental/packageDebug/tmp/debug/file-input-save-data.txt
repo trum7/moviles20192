@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Nov 28 04:05:35 COT 2019
+#Thu Nov 28 04:16:30 COT 2019
 1.base=C\:\\Users\\Camilo\\Documents\\Unal\\maestria\\semestre1\\moviles\\moviles20192\\Reto9\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY

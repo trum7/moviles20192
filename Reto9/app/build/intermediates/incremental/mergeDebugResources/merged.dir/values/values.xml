@@ -1720,7 +1720,7 @@
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB2uwapiy041iTJy2ZIvUiEjoT-D3UnYqU</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps">Moviles-unal Mapas</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
