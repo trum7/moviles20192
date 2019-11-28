@@ -1,0 +1,7 @@
+#Thu Nov 28 04:05:34 COT 2019
+base.0=C\:\\Users\\Camilo\\Documents\\Unal\\maestria\\semestre1\\moviles\\moviles20192\\Reto9\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\Camilo\\Documents\\Unal\\maestria\\semestre1\\moviles\\moviles20192\\Reto9\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
