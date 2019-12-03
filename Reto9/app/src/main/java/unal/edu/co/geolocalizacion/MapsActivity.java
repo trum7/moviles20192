@@ -104,7 +104,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         queue.add( jsonRequest );
 
         mMap = googleMap;
-        mMap.addMarker( new MarkerOptions( ).position( latLng ).title( "Your Location" ) );
+
+        mMap.addMarker( new MarkerOptions( ).position( latLng ).title( "Ubicación" ) );
     }
 
     public void stractJSON( JSONObject response, BitmapDescriptor bitmapDescriptor ){
@@ -113,7 +114,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             for( int i = 0; i < jsonArray.length( ); i++ ){
                 JSONObject json = jsonArray.getJSONObject( i ).getJSONObject( "geometry" ).getJSONObject( "location" );
                 LatLng latLng = new LatLng( json.getDouble( "lat" ), json.getDouble( "lng" ) );
-                mMap.addMarker( new MarkerOptions( ).position( latLng ).title( jsonArray.getJSONObject( i )
+                mMap.addMarker( new MarkerOptions( ).position( latLng ).title( "Nombre: " + jsonArray.getJSONObject( i )
                         .getString( "name" ) ).icon( bitmapDescriptor ) );
             }
         }catch( Exception e ){

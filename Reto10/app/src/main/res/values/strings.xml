@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Datos.gov.co</string>
+
+    <string name="date">Fecha del evento</string>
+
+    <string name="search">Filtrar</string>
+</resources>

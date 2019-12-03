@@ -41,7 +41,7 @@ public class GPS {
         };
 
         if( ActivityCompat.checkSelfPermission( context, Manifest.permission.ACCESS_FINE_LOCATION ) != PackageManager.PERMISSION_GRANTED  ){
-            return new LatLng( 4.743934, -74.041718 );
+            return new LatLng( 4.592157, -74.139243 );,
         }
         locationManager.requestLocationUpdates( LocationManager.GPS_PROVIDER, 1000, 0, locationListener );
 
