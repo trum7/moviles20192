@@ -86,12 +86,8 @@ public class MainActivity extends AppCompatActivity
                         String[] fecha = json.getString( "fecha" ).split( " " );
                         if( (fecha[fecha.length - 1].toLowerCase( )).equals( mes[calendar.get( Calendar.MONTH )] ) ){
                             StringBuilder stringBuilder = new StringBuilder( );
-                            stringBuilder.append( "Nombre: " );
-                            stringBuilder.append( json.getString( "nombre_del_evento" ) + "\n" );
-                            stringBuilder.append( "Fecha: " );
-                            stringBuilder.append( json.getString( "fecha" ) + "\n" );
-                            stringBuilder.append( "Municipio: " );
-                            stringBuilder.append( json.getString( "municipio" ) + "\n" );
+                            //stringBuilder.append( "Nombre: " );
+                            stringBuilder.append( json.getString( "nombre_del_evento" ) + " - " + json.getString( "fecha" ) + " - " + json.getString( "municipio" ) + "\n" );
                             list.add( stringBuilder.toString( ) );
                         }
                     }catch( Exception e ){
